@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: darkgray;
+    text-align: center;
+}
+
+header {
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+
+section div#tela {
+    border: 1px solid black;
+    padding: 50px;
+    
+}
+
+div#tela p {
+    font-size: 2em;
+}
+
+section div#teclas {
+    border: 1px solid black;
+    padding: 10px;
+   
+    
+}
+
+button {
+    font-size: 2em;
+    margin: 3px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}

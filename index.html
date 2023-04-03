@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <audio id="fim" src="audios/Confirmacao.mp3"></audio>
+    <audio id="som-teclas" src="audios/tecla.mp3"></audio>
+    <header>
+        <h1>Eleições de Linguagem de Programação</h1>
+    </header>
+    <section>
+        <div id="tela">
+            <p class="number" id="candidate-number"></p>
+            <p class="name" id="candidate-name">DIGITE O NUMERO DO SEU CANDIDATO</p>
+            <iframe id="foto-candidato" src="github.html" frameborder="0"></iframe>
+        </div>
+
+        <div id="teclas">
+            <button class="button" onclick="digitar(1), somdeTeclas()">1</button>
+            <button class="button" onclick="digitar(2), somdeTeclas()">2</button>
+            <button class="button" onclick="digitar(3), somdeTeclas()">3</button> <br>
+            <button class="button" onclick="digitar(4), somdeTeclas()">4</button>
+            <button class="button" onclick="digitar(5), somdeTeclas()">5</button>
+            <button class="button" onclick="digitar(6), somdeTeclas()">6</button> <br>
+            <button class="button" onclick="digitar(7), somdeTeclas()">7</button>
+            <button class="button" onclick="digitar(8), somdeTeclas()">8</button>
+            <button class="button" onclick="digitar(9), somdeTeclas()">9</button> <br>
+            <button class="button" onclick="digitar(0), somdeTeclas()">0</button> <br>
+            <button class="button" onclick="limpar(), somdeTeclas()">Corrige</button>
+            <button class="button" onclick="avancar(), somdeTeclas()">Avançar</button>
+            <button class="button" onclick="confirmar()">Confirma</button>
+        </div>
+    </section>
+    <footer>
+        <p>criado por <strong><a href="https://github.com/WesleyMAraujo" target="_blank">Wesley Monteiro de
+                    Araujo</a></strong></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
